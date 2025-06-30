@@ -8,7 +8,7 @@ const r1 = readline.createInterface({
   output: process.stdout,
 });
 
-process.stdout.write('Welcome to ALX, what is your name?\n');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
 r1.on('line', (input) => {
   process.stdout.write(`Your name is: ${input}\n`);
